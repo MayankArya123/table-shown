@@ -1,3 +1,6 @@
+.sort-menu {
+  cursor: pointer;
+}
 .App {
   text-align: center;
 }
@@ -6,6 +9,46 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.adjust {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colorImg{
+  width: 30px;
+  height: 30px;
+}
+
+.table {
+  overflow: scroll;
+}
+
+.table-responsive {
+  overflow: scroll;
+  max-height: 100vh;
+
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+  color: white;
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
